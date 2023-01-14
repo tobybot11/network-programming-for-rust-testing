@@ -1,0 +1,19 @@
+{
+  "configurations": {
+    "launch": {
+      "adapter": "CodeLLDB",
+      "filetypes": ["rust"],
+      "configuration": {
+        "request": "launch",
+        "name": "Debug",
+        "program": "${workspaceRoot}/target/debug/ch2-ownership-stack"
+      },
+      "breakpoints": {
+        "exception": {
+          "cpp_throw": "Y",
+          "cpp_catch": "Y"
+        }
+      }
+    }
+  }
+}

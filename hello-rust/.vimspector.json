@@ -1,0 +1,13 @@
+{
+  "configurations": {
+    "launch": {
+      "adapter": "CodeLLDB",
+      "filetypes": ["rust"],
+      "configuration": {
+        "request": "launch",
+        "name": "Debug",
+        "program": "${workspaceRoot}/target/debug/hello-rust"
+      }
+    }
+  }
+}
